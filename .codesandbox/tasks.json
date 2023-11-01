@@ -25,6 +25,11 @@
       "name": "start novnc",
       "command": "start novnc",
       "runAtStart": true
+    },
+    "sudo snap start novnc": {
+      "name": "sudo snap start novnc",
+      "command": "sudo snap start novnc",
+      "runAtStart": true
     }
   }
 }
