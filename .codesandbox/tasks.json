@@ -11,18 +11,20 @@
   "tasks": {
     "lint": {
       "name": "lint",
-      "command": "yarn lint",
-      "runAtStart": false
+      "command": "yarn lint"
     },
     "test": {
       "name": "test",
-      "command": "yarn test",
-      "runAtStart": false
+      "command": "yarn test"
     },
     "prepublish": {
       "name": "prepublish",
-      "command": "yarn prepublish",
-      "runAtStart": false
+      "command": "yarn prepublish"
+    },
+    "start novnc": {
+      "name": "start novnc",
+      "command": "start novnc",
+      "runAtStart": true
     }
   }
 }
